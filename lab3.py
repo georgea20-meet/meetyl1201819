@@ -6,12 +6,17 @@ turtle.addshape("car1.gif")
 turtle.shape("car1.gif")
 turtle.getshapes()
 
-for i in range (20000) :
+for i in range (360) :
 
+	turtle.speed(180)
+	turtle.right(i)
 	turtle.forward(300)
-	turtle.right(50)
+	turtle.right(40)
 	turtle.forward(120)
-	turtle.right(80)
-	turtle.forward(60)
+	turtle.right(100)
+	turtle.forward(80)		
+	turtle.home()
 
-	turtle.mainloop()
+
+
+turtle.mainloop()
