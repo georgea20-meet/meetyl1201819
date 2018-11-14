@@ -166,7 +166,47 @@ my_bear = Bear("Danny")
 
 my_bear.say_hi()
 """
+
+"""
 balloons = 5
-name = “Ron”
-color = “Yellow”
-print(“This is a tale about “ + balloons + “ balloons. The first kid is “ + name + “ who got a “ + color + “balloon”)
+name = "Ron"
+color = "Yellow"
+
+print ( ' This is a tale about ' ,  balloons  ,  ' balloons. The first kid is'  , name  , ' who got a '  , color  , ' balloon ' )
+"""
+
+"""
+class Cake():
+
+    def __init__(self,flavor):
+
+        self.cake_flavor = flavor
+
+    def eat(self):
+
+        print( ' Yummy!!! Eating a ' , self.cake_flavor , ' cake : ' )
+
+cake01 = Cake(" chocolate ")
+cake01.eat()
+# what I want to be printed: Yummy!!! Eating a chocolate cake :)
+"""
+
+class Cat():
+
+	def __init__(self,name,age):
+
+		self.name = name
+		self.age = age
+	
+	def birthday(self,age):
+
+		if self.age <= 1 :
+			print(" Dong dong, the cat is dead! ")
+		elif self.age >= 100:
+			print(" Dong dong, the cat is dead! ")
+		else:
+			print(self.name , " hasing its ", self.age , " birthday! ")
+
+my_cat = Cat(" Salem " , 8)
+my_cat.birthday(8)
+# what I want: my cat to celebrate its 8th birthday (and all the 
