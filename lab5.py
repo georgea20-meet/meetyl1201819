@@ -1,5 +1,5 @@
-
 """
+#problem 1
 import tkinter as tk
 from tkinter import simpledialog
 
@@ -16,6 +16,7 @@ else :
 	print("Greetings, hater of pirates!")
 """
 
+#problem 2
 # A time traveler has suddenly appeared in your classroom!
 
 # Create a variable representing the traveler's
@@ -39,7 +40,7 @@ elif year > 1900 & year < 2020 :
 else :
     print ("Far out, that's the future!!")
 """
-
+#problem3
 # Write a simple class that defines a person
 # with attributes of first_name, last_name
 # and has a method signature of "speak" which
@@ -65,6 +66,7 @@ you.speak()
 """
 
 """
+#problem4
 import tkinter as tk
 from tkinter import simpledialog
 # Calculating Grades (ok, let me think about this one)
@@ -127,6 +129,7 @@ else:
 """
 
 """
+#problem5
 class Person():
    def __init__(self, name, fav_food ,age , color):
        self.name = name
@@ -151,7 +154,7 @@ b.print_info()
 """
 
 """
-
+#problem6
 class Bear():
     def __init__(self, name):
 
@@ -168,6 +171,7 @@ my_bear.say_hi()
 """
 
 """
+#problem7
 balloons = 5
 name = "Ron"
 color = "Yellow"
@@ -176,6 +180,7 @@ print ( ' This is a tale about ' ,  balloons  ,  ' balloons. The first kid is'  
 """
 
 """
+#problem8
 class Cake():
 
     def __init__(self,flavor):
@@ -191,6 +196,8 @@ cake01.eat()
 # what I want to be printed: Yummy!!! Eating a chocolate cake :)
 """
 
+"""
+#problem9
 class Cat():
 
 	def __init__(self,name,age):
@@ -210,3 +217,4 @@ class Cat():
 my_cat = Cat(" Salem " , 8)
 my_cat.birthday(8)
 # what I want: my cat to celebrate its 8th birthday (and all the 
+"""

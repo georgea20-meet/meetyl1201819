@@ -8,7 +8,7 @@ turtle.getshapes()
 
 for i in range (360) :
 
-	turtle.speed(180)
+	turtle.speed(250)
 	turtle.right(i)
 	turtle.forward(300)
 	turtle.right(40)
