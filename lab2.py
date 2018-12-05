@@ -20,5 +20,12 @@ def exercise02(g):
 exercise02(A)
 
 r = [1,1,2,3,5,8,13,21,34,55,89]
-s = [1,2,3,4,5,6,7,8,9,10,11,12,13]
+z = [1,2,3,4,5,6,7,8,9,10,11,12,13]
+g = []
 
+for ir in range(len(r)):
+	for iz in range(len(z)):
+		if z[iz] == r[ir]:
+			g.append(r[ir])
+
+print(g)

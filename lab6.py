@@ -1,4 +1,5 @@
 #exercise 1
+"""
 import turtle
 import random
 turtle.colormode(255)
@@ -17,3 +18,7 @@ class Square(Turtle):
 square00=Square(20)
 square00.random_color()
 turtle.mainloop()
+"""
+
+#exercise 2
+
