@@ -1,5 +1,5 @@
 #exercise 1
-"""
+
 import turtle
 import random
 turtle.colormode(255)
@@ -15,10 +15,13 @@ class Square(Turtle):
 		G = random.randrange(0,257,10)
 		B = random.randrange(0,257,10)
 		self.color(R,G,B)
-square00=Square(20)
+square00=Square(3)
 square00.random_color()
+
+class Hexagon(Turtle):
+	def __init__ (self,x):
+		Turtle.__init__(self)
+		turtle.register_shape("Hexagon",((0,0),(x,0),(2*x,x),(2*x,x*2),(x,3*x),(0,3*x),(-x,2*x),(-x,x),(0,0)))
+		self.shape("Hexagon")
+Hex = Hexagon(20)
 turtle.mainloop()
-"""
-
-#exercise 2
-
