@@ -1,7 +1,8 @@
-import turtle
+from turtle import *
 import random
+import turtle
 
-class Ball () :
+class Ball (Turtle) :
 	def __init__(self,x,y,dx,dy,r,color):
 		Turtle.__init__(self)
 		self.x = x
@@ -9,9 +10,8 @@ class Ball () :
 		self.dx = dx 
 		self.dy = dy
 		self.r = r
-		self.color = color
 
-		turtle.penup()
+		self.penup()
 		self.goto(x,y)
 		self.shape('circle')
 		self.shapesize(r/10)
@@ -35,11 +35,11 @@ class Ball () :
 		if right_side_ball > screen_width :
 			self.dx = - self.dx
 
-		if left_side_ball < 0 :
+		if left_side_ball < -screen_width :
 			self.dx = - self.dx
 
 		if upper_side_ball > screen_height :
 			self.dy = - self.dy
 
-		if bottom_side_ball < 0 :
+		if bottom_side_ball < -screen_height :
 			self.dy = - self.dy 
